@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-style: bold;
+  color: #0000ff;
+  box-sizing: border-box;
+}
+.game {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.topmenu {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.main_content {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: left;
+}
+.coin_image {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color:yellow
+}
+.coinimage {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.shop {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: left;
+}
+.shopitem {
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+}
